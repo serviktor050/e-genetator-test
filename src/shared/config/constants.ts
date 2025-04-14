@@ -5,7 +5,7 @@ import saved from '../../assets/svg/saved.svg';
 import notifications from '../../assets/svg/notifications.svg';
 import chats from '../../assets/svg/chats.svg';
 
-import { INavigationItem } from './interfaces';
+import { INavigationItem, INewsItem } from './interfaces';
 
 export const NAVIGATION_ITEMS: INavigationItem[] = [
   {
@@ -45,5 +45,35 @@ export const NAVIGATION_ITEMS: INavigationItem[] = [
     icon: chats,
     title: 'Чаты',
     count: 1,
+  },
+];
+
+export const NEWS: INewsItem[] = [
+  {
+    id: 1,
+    date: '06.04.2025',
+    img: 'https://cdn2.thecatapi.com/images/6qh.jpg',
+    title: 'Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так.',
+    content: 'Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. '
+        + 'Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, '
+        + 'а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликац',
+  },
+  {
+    id: 2,
+    date: '05.03.2025',
+    img: 'https://cdn2.thecatapi.com/images/cng.jpg',
+    title: 'Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так.',
+    content: 'Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. '
+        + 'Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, '
+        + 'а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликац',
+  },
+  {
+    id: 3,
+    date: '18.01.2025',
+    img: 'https://cdn2.thecatapi.com/images/c01.jpg',
+    title: 'Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так.',
+    content: 'Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. '
+        + 'Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, '
+        + 'а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликац',
   },
 ];

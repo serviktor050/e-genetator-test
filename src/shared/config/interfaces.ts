@@ -5,3 +5,11 @@ export interface INavigationItem {
     title: string,
     count?: number,
 }
+
+export interface INewsItem {
+    id: number,
+    date: string,
+    img: string,
+    title: string,
+    content: string,
+}
